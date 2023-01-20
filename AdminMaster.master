@@ -1,0 +1,119 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMaster.master.cs" Inherits="AdminMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+    <script type="text/javascript" src="stlib.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table cellpadding="0" cellspacing="0" frame="box" style="height: 332px; width: 925px;">
+            <tr>
+                <td colspan="2" style="height: 1px; text-align:left " align="left" valign="top">
+                    <asp:Image ID="Image2" runat="server" Height="85px" ImageUrl="~/BANK IMAGES/Header.gif"
+                        Width="950px" /><br />
+                    <asp:Menu ID="Menu2" runat="server" BackColor="#E3EAEB" DynamicHorizontalOffset="2"
+                        Font-Names="Verdana" Font-Size="0.8em" ForeColor="#666666" Height="3px" Orientation="Horizontal"
+                        PathSeparator="b" StaticBottomSeparatorImageUrl="~/sur_.gif" StaticSubMenuIndent="10px"
+                        Style="font-size: 11pt; background-image: none; vertical-align: top; color: black;
+                        font-family: Verdana; text-align: left" Width="536px">
+                        <StaticMenuItemStyle Font-Size="Small" ForeColor="DimGray" HorizontalPadding="5px"
+                            VerticalPadding="2px" />
+                        <DynamicHoverStyle BackColor="#666666" Font-Bold="True" Font-Size="X-Small" ForeColor="White" />
+                        <DynamicMenuStyle BackColor="#E3EAEB" />
+                        <StaticSelectedStyle BackColor="#1C5E55" Font-Size="Small" ForeColor="Black" />
+                        <DynamicSelectedStyle BackColor="#1C5E55" />
+                        <DynamicMenuItemStyle BackColor="#E3EAEB" Font-Size="Small" ForeColor="Black" HorizontalPadding="5px"
+                            VerticalPadding="2px" />
+                        <Items>
+                            <asp:MenuItem NavigateUrl="~/DonorReport.aspx" Text="Donor Report" Value="Home"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/PatientReport.aspx" Text="Patient Report" Value="Patient Report">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/sosReport.aspx" Text="SOS Report" Value="SOS Report"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/CampReport.aspx" Text="Camp Report" Value="Camp Report">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/StaffReport.aspx" Text="Staff Report" Value="Staff Report">
+                            </asp:MenuItem>
+                        </Items>
+                        <StaticHoverStyle BackColor="#666666" Font-Bold="True" Font-Size="X-Small" ForeColor="White" />
+                    </asp:Menu>
+                    <asp:Label ID="Label1" runat="server" Font-Names="Verdana" Font-Size="10pt" ForeColor="Maroon"
+                        Text="Welcome  , " Width="60px"></asp:Label><asp:LoginName ID="LoginName1" runat="server" Font-Names="Verdana"
+                            Font-Size="12pt" ForeColor="Blue" />
+                        <asp:HyperLink ID="HyperLink11" runat="server" NavigateUrl="~/Login.aspx" Width="81px">Log Out</asp:HyperLink></td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top; width: 1px; height: 233px; background-color: transparent">
+                    <p style="list-style-image: url(BANK IMAGES/Bullet.gif)">
+                        &nbsp;</p>
+                    <p style="list-style-image: url(BANK IMAGES/Bullet.gif)">
+                        <asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/XMLFile.xml" />
+                    </p>
+                    <p>
+                        &nbsp;</p>
+                    <p style="list-style-image: url(BANK IMAGES/Bullet.gif)">
+                    
+<script type="text/javascript">
+<!--
+stBM(290,"tree6575",[0,"","","blank.gif",0,"center","auto","auto",1,0,-1,204,-1,"solid",1,"#666666","transparent","","repeat",1,"0609_f.gif","0609_uf.gif",9,9,0,"","","","",0,0,0,2,"center",0,0,0,"","","","",""]);
+stBS("p0",[0,0,"",-2,"",-2,50,28,3]);
+stIT("p0i0",["Staff","","_self","","","","",3,0,"bold 8pt 'Verdana','Arial'","#FFFFFF","none","transparent","buttonline.gif","repeat","bold 8pt 'Arial'","#FFFF00","none","transparent","buttonline.gif","repeat","bold 8pt 'Arial'","#FFFF00","none","transparent","buttonline.gif","repeat","bold 8pt 'Arial'","#FFFF00","none","transparent","buttonline.gif","repeat",1,1,"center","middle",0,18,"arrow2.gif","arrow2a.gif","arrow1.gif","arrow1a.gif",9,9,1]);
+stBS("p1",[,1,"slip",,"slip",,79],"p0");
+stIT("p1i0",[" ",,,,,,,0,,"8pt 'Verdana','Arial'","#FF0000",,,"0609line.gif",,"8pt 'Arial'","#000000",,,"",,"8pt 'Arial'","#000000",,,"",,"8pt 'Arial'","#333333",,,"",,,0,"left",,,0,"","","","",0,0,0],"p0i0");
+stIT("p1i1",["Add_Staff","Add_Staff.aspx",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1],"p1i0");
+stIT("p1i2",["Update Staff","ViewStaff.aspx"],"p1i1");
+stIT("p1i3",[],"p1i0");
+stES();
+stIT("p0i1",["Blood ",,,,,,,0],"p0i0");
+stBS("p2",[],"p1");
+stIT("p2i0",[],"p1i0");
+stIT("p2i1",["Update Blood Status","UpdateBlood_unit_status.aspx"],"p1i1");
+stIT("p2i2",["View Blood Status","Blood_Status.aspx"],"p1i1");
+stIT("p2i3",[],"p1i0");
+stES();
+stIT("p0i2",["Patients"],"p0i0");
+stBS("p3",[],"p1");
+stIT("p3i0",[],"p1i0");
+stIT("p3i1",["All Patients","Total_patients.aspx"],"p2i2");
+stIT("p3i2",["All SOS Patients","Total_SOS.aspx"],"p2i2");
+stIT("p3i3",[],"p1i0");
+stES();
+stIT("p0i3",["View"],"p0i0");
+stBS("p4",[],"p1");
+stIT("p4i0",[],"p1i0");
+stIT("p4i1",["All Donors","Total_Donors.aspx"],"p2i2");
+stIT("p4i2",["All Camps","Total_Camp.aspx"],"p2i2");
+stIT("p4i2",["Question Forum","Question Forum.aspx"],"p2i2");
+
+stIT("p4i3",[],"p1i0");
+stES();
+stES();
+stEM();
+//-->
+</script>
+
+                    
+
+
+                        &nbsp;</p>
+                </td>
+                <td style="background-image: none; width: 903px" valign="top">
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+            &nbsp;&nbsp;</asp:contentplaceholder>
+                    &nbsp; &nbsp; &nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2" style="vertical-align: top; width: 1px; height: 20px;
+                    background-color: transparent; text-align: center">
+                    <asp:Label ID="Label2" runat="server" Font-Names="Verdana" Font-Size="11pt" ForeColor="DarkRed"
+                        Width="870px"></asp:Label></td>
+            </tr>
+        </table>
+        </div>
+    </form>
+</body>
+</html>

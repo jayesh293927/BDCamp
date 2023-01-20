@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements xmlns="http://schemas.microsoft.com/AspNet/AdRotator-Schedule-File">
+  <Ad xmlns="">
+    <ImageUrl xmlns="">BANK IMAGES\donor.jpg</ImageUrl>
+    <AlternateText xmlns="">Blood Donate</AlternateText>
+    <Impressions xmlns="">10</Impressions>
+
+  </Ad>
+  <Ad xmlns="">
+    <ImageUrl xmlns="">BANK IMAGES\WhyIGivebutton.jpg</ImageUrl>
+    <AlternateText xmlns="">Blood Donor</AlternateText>
+
+    <Impressions xmlns="">10</Impressions>
+
+  </Ad>
+  <Ad xmlns="">
+    <ImageUrl xmlns="">BANK IMAGES\giveblood.jpg</ImageUrl>
+    <AlternateText xmlns="">Give Blood</AlternateText>
+
+    <Impressions xmlns="">10</Impressions>
+
+  </Ad>
+</Advertisements>
